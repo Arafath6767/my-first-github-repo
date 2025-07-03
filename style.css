@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    background-image: url(images/network-4851119_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(151, 47, 255);
+}
+
+.para1{
+    background-color: black;
+    width: 50%;
+    height: 190px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 11px;
+    opacity: 0.9;
+}
+
+.para1 p{
+    margin-bottom: 10px;
+}
+
+#pp2{
+    color: red;
+}
+
+h3{
+    margin-left: 355px;
+    color:aqua;
+}
+
+ul{
+    margin-left: 365px;
+    color: aqua;
+}
+
+li{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.para2{
+    background-color: aqua;
+    width: 70%;
+    height: 575px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 11px;
+    opacity: 0.6;
+}
+
+.para2 p{
+    margin: 10px;
+    color: rgb(41, 30, 30);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.pa{
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.pa button{
+    width: 120px;
+    height: 45px;
+    border: 1px solid rgb(9, 9, 8);
+    border-radius: 12px;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+.pa button:hover{
+    color: white;
+    border: none;
+    background: rgba(0, 0, 255, 0.685);
+}
+
+.p1{
+    border: 2px solid black;
+}
+
+.p2{
+    border: 2px solid red;
+}
+
+.p3{
+    border: 2px solid seagreen;
+}
+
+.bg-image{
+    width: 70%;
+    height: 350px;
+    border: 2px solid aqua;
+    margin: 20px auto;
+    border-radius: 11px;
+     background-image: url(images/ai-generated-8988761_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s ease-in-out;
+}
+
+
+.bg-image:hover{
+    background-image: url(images/network-4851119_1280.jpg);
+}
+
+footer{
+    color: aqua;
+    text-align: center;
+}
